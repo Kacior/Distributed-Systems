@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form action="#" method="post">
+    <h2>Name:</h2>
+    {% if pre_name == '' %}
+        <h2><input type="text" name="nm" width="200px"></h2>
+    {% else %}
+        <h2><input type="text" name="nm" value="{{ pre_name }}" width="200px"></h2>
+    {% endif %}
+    {% if valid_name == False %}
+        <h4>You have to fill out your name first</h4>
+    {% endif %}
+    <h2>Date:</h2>
+    {% if pre_name == '' %}
+        <h2><input type="date" name="dt" width="200px"></h2>
+    {% else %}
+        <h2><input type="date" name="dt" value="{{ pre_date }}" width="200px"></h2>
+    {% endif %} 
+    <h2>Countries:</h2>
+    <h3>
+        {% block select %}{% endblock %}
+    </h3>
+    <h2><input type="submit" value="SUBMIT"></h2>
+</form>
+{% block result %}
+{% endblock %}
+{% endblock %}
+

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jaxrs-ri-with-deps">
+    <CLASSES>
+      <root url="file://$USER_HOME$/labs/sem6/ROZPR/lab2/jaxrs-ri-2.22-with-deps/jaxrs-ri-with-deps" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/labs/sem6/ROZPR/lab2/jaxrs-ri-2.22-with-deps/jaxrs-ri-with-deps" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/labs/sem6/ROZPR/lab2/jaxrs-ri-2.22-with-deps/jaxrs-ri-with-deps" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/labs/sem6/ROZPR/lab2/jaxrs-ri-2.22-with-deps/jaxrs-ri-with-deps" recursive="false" type="SOURCES" />
+  </library>
+</component>

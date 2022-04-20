@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lab2_zad:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>lab2_zad</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="lab2_zad-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="lab2_zad:war exploded" />
+    </root>
+  </artifact>
+</component>
